@@ -25,7 +25,8 @@ Each problem is linked to its respective online judge.
 
 </details>
 
-### STL
+<details>
+<summary>STL</summary>
 
 - [x] [Three Strings](https://codeforces.com/problemset/problem/1301/A)
 - [x] [Business Trip](https://codeforces.com/contest/149/problem/A)
@@ -45,7 +46,10 @@ Each problem is linked to its respective online judge.
 - [ ] [Make Cents?](https://codeforces.com/gym/101350/problem/M)
 - [ ] [Optimal Subsequences](https://codeforces.com/contest/1262/problem/D2)
 
-### Greedy
+</details>
+
+<details>
+<summary>Greedy</summary>
 
 - [x] [Fatorial](https://judge.beecrowd.com/pt/problems/view/1936)
 - [x] [Dragon Quest](https://codeforces.com/contest/1337/problem/B)
@@ -62,7 +66,10 @@ Each problem is linked to its respective online judge.
 - [ ] [Pizza](https://judge.beecrowd.com/pt/problems/view/2333)
 - [ ] [Bolsa de Valores](https://www.urionlinejudge.com.br/judge/pt/problems/view/1932)
 
-### Binary Search
+</details>
+
+<details>
+<summary>Binary Search</summary>
 
 - [ ] [Frog Jumps](https://codeforces.com/contest/1324/problem/C)
 - [ ] [K'th not divisible](https://codeforces.com/contest/1352/problem/C)
@@ -85,7 +92,10 @@ Each problem is linked to its respective online judge.
 - [ ] [Common Number](https://codeforces.com/contest/1271/problem/E)
 - [ ] [Guess the Maximum](https://codeforces.com/problemset/problem/1363/D)
 
-### BFS
+</details>
+
+<details>
+<summary>BFS</summary>
 
 - [ ] [Costa](https://judge.beecrowd.com/pt/problems/view/2419)
 - [ ] [Mapa](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f2/mapa/)
@@ -105,7 +115,10 @@ Each problem is linked to its respective online judge.
 - [ ] [Super Jaber](https://codeforces.com/problemset/problem/1301/F)
 - [ ] [NT problem](https://codeforces.com/problemset/problem/1325/E)
 
-### 2 Pointers
+</details>
+
+<details>
+<summary>2 Pointers</summary>
 
 - [ ] [Magical Array](https://codeforces.com/contest/84/problem/B)
 - [ ] [Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A)
@@ -127,12 +140,11 @@ Each problem is linked to its respective online judge.
 
 </details>
 
+</details>
+
 ---
 
 ## Vim Template & Compilation Command
-
-<details>
-<summary>Click to expand</summary>
 
 ### Vim Template
 
@@ -155,3 +167,14 @@ int main() { _
     
     return 0;
 }
+```
+
+### Compilation Command
+```
+g++ -fsanitize=address -01 -fno-omit-frame-pointer -g -Wall -Wshadow -Wfatal-errors --std=c++20 -Wno-unused-result -Wno-sign-compare
+```
+
+## Learn More
+In order to complete the exercises above, it is useful to watch/read about the corresponding subject. Here is some useful free content to learn more about:
+[MIT Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+[UFMG Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
