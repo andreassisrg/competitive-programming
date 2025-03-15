@@ -1,12 +1,11 @@
 # Competitive Programming History
 
 This is a collection of my competitive programming exercises, divided by topics. Each problem is linked to its respective online judge.
----
-
-## Basics
 
 <details>
-<summary>Click to expand</summary>
+<summary>Problems</summary>
+
+### Basics
 
 - [x] [PRIMO](https://br.spoj.com/problems/PRIMO/)
 - [x] [QUERM](https://br.spoj.com/problems/QUERM/)
@@ -20,14 +19,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [Bad Prices](http://codeforces.com/contest/1213/problem/B)
 - [ ] [Fatorial](https://br.spoj.com/problems/FATORIAL/)
 
-</details>
-
----
-
-## STL
-
-<details>
-<summary>Click to expand</summary>
+### STL
 
 - [x] [Three Strings](https://codeforces.com/problemset/problem/1301/A)
 - [x] [Business Trip](https://codeforces.com/contest/149/problem/A)
@@ -47,14 +39,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [Make Cents?](https://codeforces.com/gym/101350/problem/M)
 - [ ] [Optimal Subsequences](https://codeforces.com/contest/1262/problem/D2)
 
-</details>
-
----
-
-## Greedy
-
-<details>
-<summary>Click to expand</summary>
+### Greedy
 
 - [x] [Fatorial](https://judge.beecrowd.com/pt/problems/view/1936)
 - [x] [Dragon Quest](https://codeforces.com/contest/1337/problem/B)
@@ -71,14 +56,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [Pizza](https://judge.beecrowd.com/pt/problems/view/2333)
 - [ ] [Bolsa de Valores](https://www.urionlinejudge.com.br/judge/pt/problems/view/1932)
 
-</details>
-
----
-
-## Binary Search
-
-<details>
-<summary>Click to expand</summary>
+### Binary Search
 
 - [ ] [Frog Jumps](https://codeforces.com/contest/1324/problem/C)
 - [ ] [K'th not divisible](https://codeforces.com/contest/1352/problem/C)
@@ -101,14 +79,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [Common Number](https://codeforces.com/contest/1271/problem/E)
 - [ ] [Guess the Maximum](https://codeforces.com/problemset/problem/1363/D)
 
-</details>
-
----
-
-## BFS
-
-<details>
-<summary>Click to expand</summary>
+### BFS
 
 - [ ] [Costa](https://judge.beecrowd.com/pt/problems/view/2419)
 - [ ] [Mapa](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f2/mapa/)
@@ -128,14 +99,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [Super Jaber](https://codeforces.com/problemset/problem/1301/F)
 - [ ] [NT problem](https://codeforces.com/problemset/problem/1325/E)
 
-</details>
-
----
-
-## 2 Pointers
-
-<details>
-<summary>Click to expand</summary>
+### 2 Pointers
 
 - [ ] [Magical Array](https://codeforces.com/contest/84/problem/B)
 - [ ] [Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A)
@@ -159,16 +123,14 @@ This is a collection of my competitive programming exercises, divided by topics.
 
 ---
 
-
-# Vim Template & Compilation Command
-
----
-
-## Vim Template
+## Vim Template & Compilation Command
 
 <details>
 <summary>Click to expand</summary>
 
+### Vim Template
+
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -187,11 +149,11 @@ int main() { _
     
     return 0;
 }
+```
 
+### Compilation Command
 
-<details> <summary>Click to expand</summary>
-bash
-Copy
-Edit
+```bash
 g++ -fsanitize=address -O1 -fno-omit-frame-pointer -g -Wall -Wshadow -Wfatal-errors --std=c++20 -Wno-unused-result -Wno-sign-compare
+```
 </details>
