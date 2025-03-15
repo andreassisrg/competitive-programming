@@ -1,12 +1,14 @@
-# Competitive Programming History
+# Competitive Programming
 
-This is a collection of my competitive programming exercises, divided by topics. Each problem is linked to its respective online judge.
+This is a collection of my competitive programming exercises, divided by topics.
+Each problem is linked to its respective online judge.
 
 <details>
 <summary>Problems</summary>
 
-### Basics
-
+<details>
+<summary>### Basics</summary>
+    
 - [x] [PRIMO](https://br.spoj.com/problems/PRIMO/)
 - [x] [QUERM](https://br.spoj.com/problems/QUERM/)
 - [x] [MINHOCA](https://br.spoj.com/problems/MINHOCA/)
@@ -18,6 +20,8 @@ This is a collection of my competitive programming exercises, divided by topics.
 - [ ] [CME](https://codeforces.com/contest/1241/problem/A)
 - [ ] [Bad Prices](http://codeforces.com/contest/1213/problem/B)
 - [ ] [Fatorial](https://br.spoj.com/problems/FATORIAL/)
+
+</details>
 
 ### STL
 
