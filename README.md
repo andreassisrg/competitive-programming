@@ -4,7 +4,7 @@ This is a collection of my competitive programming exercises, divided by topics.
 Each problem is linked to its respective online judge.
 
 <details>
-<summary style="font-size: 1.5em; font-weight: bold;>Problems</summary>
+<summary style="font-size: 1.5em; font-weight: bold;">Problems</summary>
 
 <br/>
 
@@ -155,11 +155,3 @@ int main() { _
     
     return 0;
 }
-```
-
-### Compilation Command
-
-```bash
-g++ -fsanitize=address -O1 -fno-omit-frame-pointer -g -Wall -Wshadow -Wfatal-errors --std=c++20 -Wno-unused-result -Wno-sign-compare
-```
-</details>
