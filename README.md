@@ -1,13 +1,15 @@
 # Competitive Programming
 
-This is a collection of my competitive programming exercises, divided by topics.
+This is a collection of my competitive programming exercises, divided by topics.<br/>
 Each problem is linked to its respective online judge.
 
 <details>
-<summary>Problems</summary>
+<summary style="font-size: 1.5em; font-weight: bold;>Problems</summary>
+
+<br/>
 
 <details>
-<summary>### Basics</summary>
+<summary>Basics</summary>
     
 - [x] [PRIMO](https://br.spoj.com/problems/PRIMO/)
 - [x] [QUERM](https://br.spoj.com/problems/QUERM/)
