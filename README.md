@@ -2,10 +2,7 @@
 
 This repository contains a collection of my competitive programming solutions, organized by various algorithmic topics. Each problem is linked to its corresponding online judge for easy access and practice. The problems are categorized into key areas like STL, greedy algorithms, binary search, BFS, and more, providing a structured approach to improving problem-solving skills. Each solution is implemented in C++ with a focus on efficiency and clarity. Additionally, I've included a set of resources that I used for learning about the algorithms used.
 
-<details>
-<summary style="font-size: 1.5em; font-weight: bold;">Problems</summary>
-
-<br/>
+## Problem Sets
 
 <details>
 <summary>Basics</summary>
@@ -136,8 +133,6 @@ This repository contains a collection of my competitive programming solutions, o
 - [ ] [Glider](https://codeforces.com/problemset/problem/1041/D)
 - [ ] [Way Out](https://codeforces.com/contest/1110/problem/C)
 - [ ] [Collisions](https://codeforces.com/contest/1204/problem/B)
-
-</details>
 
 </details>
 
