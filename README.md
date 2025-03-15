@@ -1,9 +1,6 @@
 # Competitive Programming History
 
 This is a collection of my competitive programming exercises, divided by topics. Each problem is linked to its respective online judge.
-
-## [Original List](https://docs.google.com/spreadsheets/d/1QQ1QvYNDPKv9Aqh5c2VL_KCtpqASDWeRcLkyyXlPM0M/edit?pli=1&gid=2120771877#gid=2120771877)
-
 ---
 
 ## Basics
@@ -162,6 +159,39 @@ This is a collection of my competitive programming exercises, divided by topics.
 
 ---
 
-## Final Considerations
 
-This list is a personal collection of competitive programming problems I’ve worked on, categorized by topic. Each problem is linked to the respective online judge for quick access.
+# Vim Template & Compilation Command
+
+---
+
+## Vim Template
+
+<details>
+<summary>Click to expand</summary>
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define _ ios_base::sync_with_stdio(0);cin.tie(0);
+#define endl '\n'
+#define f first
+#define s second
+
+typedef long long ll;
+
+const int INF = 0x3f3f3f3f;
+const ll LINF = 0x3f3f3f3f3f3f3f3fll;
+
+int main() { _
+    
+    return 0;
+}
+
+
+<details> <summary>Click to expand</summary>
+bash
+Copy
+Edit
+g++ -fsanitize=address -O1 -fno-omit-frame-pointer -g -Wall -Wshadow -Wfatal-errors --std=c++20 -Wno-unused-result -Wno-sign-compare
+</details>
