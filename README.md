@@ -147,7 +147,7 @@ This repository contains a collection of my competitive programming solutions, o
 
 using namespace std;
 
-#define _ ios_base::sync_with_stdio(0);cin.tie(0);
+#define _ ios_base::sync_with_stdio(0); cin.tie(0);
 #define endl '\n'
 #define f first
 #define s second
