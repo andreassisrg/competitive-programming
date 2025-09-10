@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
@@ -8,9 +9,9 @@ int main() {
 	while(true) {
 		cin >> N;
 		if (N == 0) { break; }
-		int x;
+		
 		for (int i = 1; i <= N; i++) {
-			cin >> x;
+			int x; cin >> x;
 			if (i == x) {
 				cout << "Teste " << n_teste << endl;
 				cout << x << endl;
