@@ -1,10 +1,10 @@
 # Competitive Programming
 
-This repository contains a collection of my competitive programming solutions, organized by various algorithmic topics. Each problem is linked to its corresponding online judge for easy access and practice. The problems are categorized into key areas like STL, greedy algorithms, binary search, BFS, and more, providing a structured approach to improving problem-solving skills. Each solution is implemented in C++ with a focus on efficiency and clarity. Additionally, I've included a set of resources that I used for learning about the algorithms used.
+This repository contains a collection of my competitive programming solutions, organized by various algorithmic topics. The problems are categorized into key areas like STL, greedy algorithms, binary search, BFS, and more, providing a structured approach to improving problem-solving skills. Each solution is implemented in either Golang or C++ with a focus on efficiency and clarity. Additionally, I've included a set of resources that I used for learning about the algorithms used.
 
 ---
 
-## Vim Template & Compilation Command
+## C++ Vim Template & Compilation Command
 
 ### Vim Template
 
@@ -12,11 +12,6 @@ This repository contains a collection of my competitive programming solutions, o
 #include <bits/stdc++.h>
 
 using namespace std;
-
-#define _ ios_base::sync_with_stdio(0); cin.tie(0);
-#define endl '\n'
-#define f first
-#define s second
 
 typedef long long ll;
 
