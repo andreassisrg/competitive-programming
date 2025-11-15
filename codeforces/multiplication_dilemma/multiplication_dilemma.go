@@ -1,46 +1,52 @@
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"math"
+	"strings"
 )
 
 func main() {
-    var t int
-    fmt.Scan(&t)
+	var t int
+	fmt.Scan(&t)
 
-    for i := 0; i < t; i++ {
-        var a, b int
-        fmt.Scanln(&a, &b)
-    
-        a_decomposition, b_decomposition := getDecomposition(a), getDecomposition(b)
-        
-        var terms []string
-        for i, _ := range a_decomposition {
-            for j, _ := range b_decomposition {
-                term := fmt.Sprintf("%d x %d", a_decomposition[i], b_decomposition[j])
-                terms = append(terms, term)
-            }
-        }
+	var a, b int
+	for i := 0; i < t; i++ {
+		fmt.Scanln(&a, &b)
+		aDecomposed, bDecomposed := decompose(a), decompose(b)
 
-        fmt.Println(strings.Join(terms, " + "))
-    }
+		var printLst []string
+		for i, aDigit := range aDecomposed {
+			if aDigit == 0 {
+				continue
+			}
+
+			for j, bDigit := range bDecomposed {
+				if bDigit == 0 {
+					continue
+				}
+
+				printLst = append(printLst,
+					fmt.Sprintf(
+						"%d x %d",
+						aDigit*int(math.Pow(10, float64(i))),
+						bDigit*int(math.Pow(10, float64(j))),
+					),
+				)
+			}
+		}
+
+		fmt.Println(strings.Join(printLst, " + "))
+	}
 }
 
-func getDecomposition(x int) []int {
-    var x_decomposition []int
-    position := 1
+func decompose(num int) []int {
+	var numDecomposed []int
 
-    for x > 0 {
-        digit := x % 10
-        
-        if digit != 0 {
-            x_decomposition = append([]int{digit * position}, x_decomposition...)
-        }
-    
-        x /= 10
-        position *= 10
-    }
+	for math.Abs(float64(num)) > 0 {
+		numDecomposed = append(numDecomposed, num%10)
+		num /= 10
+	}
 
-    return x_decomposition
+	return numDecomposed
 }
